@@ -1,0 +1,19 @@
+
+.nav_profile{
+    margin-left: 8rem;
+}
+
+.dropdown-menu{
+    padding: 1rem !important;
+    position: absolute !important;
+    left: 50% !important;
+    transform: translateX(-50%);
+}
+
+.hide-categories{
+    display: none !important;
+}
+.navbar-toggler{
+  outline: 0 !important;
+  border: 0 !important;
+}

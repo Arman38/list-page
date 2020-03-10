@@ -1,0 +1,49 @@
+
+.login-nav{
+    min-height: 8vh;
+    width: 100%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.39);
+}
+.login-nav a {
+    font-size: 2em;
+    text-decoration: none !important;
+    line-height: 60px;
+}
+.login-info{
+    min-height: 5vh;
+    line-height: 48px;
+    background:#F7F7F7 ;
+}
+.hide-content{
+    background:#F7F7F7 ;
+}
+.hide-info{
+    min-height: 4vh;
+    line-height: 48px;
+    background:#FFFFDD; 
+    margin:25px 0;
+    padding:1rem 1rem;
+    font-size:1.1em
+}
+.login-register-content{
+    min-height: 80vh;
+    background:#F7F7F7 ;
+}
+.login,.register{
+    background: white;
+    padding: 30px 80px 40px 60px !important;
+} 
+.reg-button{
+    width: 50%;
+    color:white !important
+}
+.footer{
+    max-height: 25px;
+    padding-bottom: 25px;
+    min-height: 5vh;
+}
+.btn-fb{
+    background: #4C66A4 !important;
+    font-weight: 800 !important;
+    width: 10rem;
+}

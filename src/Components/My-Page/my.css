@@ -1,0 +1,29 @@
+.my-page-all{
+    margin-top: 1rem;
+    padding: 0 !important ;
+    border: .5px solid  rgba(128, 128, 128, 0.39);
+    border-radius: 6px;
+    background-color: white;
+}
+
+.pageTabBar{
+    border: 1px solid  rgba(128, 128, 128, 0.39);
+    padding: .5rem 0 ;
+    display: flex;
+    justify-content: space-evenly
+    
+}
+.pageTabBar div select {
+    max-width: 200px;
+    padding: .5rem;
+}
+.my-items{
+    padding: .5rem;
+    display: flex;
+}
+
+.myitem{
+    margin-top: 1rem;
+    padding: 1rem;
+    border-top: .5px solid rgba(128, 128, 128, 0.438);
+}
