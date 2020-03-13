@@ -73,7 +73,6 @@ const App = (props) => {
                         signout = {signout}
                     />
                     <Categories showCategories = {visible} /> 
-
                     </>
                 )
             }} />
