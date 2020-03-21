@@ -6,9 +6,10 @@ import './login.css'
                       
 const Login = ({history,signIn,onlogMail,onlogPass,errLogMsg,loggedEmail}) => {
 
-    const classNames =  history.location.search === "?next=add" 
+    const classNames =  history.location.search === "?next=add"
                         ? "hide-content"
                         :'d-none' 
+  
 
     if(loggedEmail){
         return    <Redirect to="/"/>

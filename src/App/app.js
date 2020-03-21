@@ -6,6 +6,7 @@ import Login from "../Components/Login/login"
 import Register from "../Components/Register/register"
 import  firebase  from 'firebase'
 import My from '../Components/My-Page/my'
+import { Add } from "../Components/Add/Add"
 
 (function(){
     var firebaseConfig = {
@@ -85,6 +86,21 @@ const App = (props) => {
                             errLogMsg = {errLogMsg}
                             loggedEmail = {loggedEmail}
                 /> 
+            }} />
+            
+            <Route path = "/add"  render = {()=> {
+                return (
+                    <>
+                    <Enav  
+                            showCategories = {showCategories}
+                            loggedEmail = {loggedEmail}
+                            email = {email}
+                            signout = {signout}
+                            hideContent = "d-none"
+                        />
+                    <Add  loggedEmail = {loggedEmail}/> 
+                    </>
+                )
             }} />
             <Route path = "/register" render = {()=> {
                 return <Register 
